@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gaming Dashboard (Bootstrap Only, Lorem Ipsum, Transparent)</title>
+  
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  />
+</head>
+<body class="bg-body-tertiary">
+
+
+<div class="container-fluid p-3">
+  <div class="row g-3">
+
+    <div 
+      class="col-auto bg-dark opacity-78 bg-gradient text-white rounded-5 shadow d-flex flex-column align-items-center p-3" 
+      style="width: 80px;"
+    >
+
+      <div class="mb-4">
+        <i class="bi bi-controller fs-3"></i>
+      </div>
+
+      <nav class="nav flex-column text-center w-100">
+        <a class="nav-link py-3 text-white" href="#"><i class="bi bi-house-door-fill"></i></a>
+        <a class="nav-link py-3 text-white" href="#"><i class="bi bi-joystick"></i></a>
+        <a class="nav-link py-3 text-white" href="#"><i class="bi bi-gift-fill"></i></a>
+        <a class="nav-link py-3 text-white" href="#"><i class="bi bi-chat-square-dots-fill"></i></a>
+        <a class="nav-link py-3 text-white" href="#"><i class="bi bi-gear-fill"></i></a>
+      </nav>
+
+      <div class="mt-auto">
+        <a class="nav-link py-3 text-white" href="#"><i class="bi bi-plus-circle-fill"></i></a>
+      </div>
+    </div>
+
+    <div class="col bg-dark bg-gradient rounded-5 shadow p-4 d-flex flex-column">
+      
+
+      <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+
+        <div class="text-white">
+          <h4 class="fw-normal mb-1">Good evening, <span class="fw-bold">Notonfr0y</span></h4>
+          <small class="text-light">Ready for new gaming adventures?</small>
+        </div>
+
+        <form class="d-flex align-items-center my-2" style="max-width: 300px;">
+          <div class="input-group">
+            <span class="input-group-text bg-dark border-0 text-light">
+              <i class="bi bi-search"></i>
+            </span>
+            <input 
+              type="search" 
+              class="form-control bg-dark text-white border-0" 
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </div>
+        </form>
+        
+
+        <div class="d-flex align-items-center text-white">
+          <span class="text-secondary me-3">In Game</span>
+          <div 
+            class="rounded-circle overflow-hidden border border-2 border-white" 
+            style="width: 40px; height: 40px;"
+          >
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-FZReDjmp2j3ppu3eJDKlPzQo7Fk4O67Fg&s" 
+              alt="User Avatar" 
+              class="w-100 h-100"
+            >
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="row g-3 my-3 mx-3 mb-3">
+        <div class="col-12 col-xl-7">
+          <div class="bg-transparent bg-gradient text-white rounded-4 p-3 position-relative h-100">
+            <div class="row">
+              <div class="col-8">
+                <span class="badge bg-light text-dark mb-2">Popular</span>
+                <h2 class="fw-bold">Valorant</h2>
+                <p class="small mb-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="d-flex align-items-center mb-3">
+   
+                  <span class="small ms-1">+53 Reviews</span>
+                </div>
+                <button class="btn btn-light btn-sm me-2">Play Now</button>
+                <button class="btn btn-outline-light btn-sm">View Details</button>
+              </div>
+              <div class="col-4 text-end">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-FZReDjmp2j3ppu3eJDKlPzQo7Fk4O67Fg&s" 
+                  alt="Valorant Character"
+                  class="img-fluid rounded-4"
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-12 col-xl-5">
+          <div class="bg-transparent bg-gradient text-white rounded-4 p-3 mb-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold">Unravel 2</span>
+              <span class="badge bg-dark">Starter Pass</span>
+            </div>
+            <p class="small mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="bg-transparent bg-gradient text-white rounded-4 p-3 mb-3">
+            <span class="fw-bold d-block">Subway Surf</span>
+            <p class="small mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="bg-transparent bg-gradient text-white rounded-4 p-3 mb-3">
+            <span class="fw-bold d-block">Red Dead Redemption 3</span>
+            <p class="small mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- SECOND ROW: New Games + Stats/Downloads -->
+      <div class="row g-3 flex-grow-1">
+        <!-- New Games -->
+        <div class="col-12 col-md-8">
+          <h5 class="text-white mb-3">New Games</h5>
+          <div class="row g-3">
+            <div class="col-12 col-lg-6">
+              <div class="bg-transparent bg-gradient text-white rounded-4 p-3 position-relative">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <h6 class="fw-semibold mb-0">Uncharted 4</h6>
+                  
+                </div>
+                <p class="small">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed do eiusmod tempor incididunt ut labore et dolore.
+                </p>
+                <img 
+                 
+                >
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="bg-transparent bg-gradient text-white rounded-4 p-3">
+                <h6 class="fw-semibold">Dishonored</h6>
+                <p class="small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+\
+        <div class="col-12 col-md-4">
+          <h5 class="text-white mb-3">Your Statistic</h5>
+          <div class="bg-transparent bg-gradient text-white rounded-4 p-3 mb-3">
+            <div class="text-center">
+              <div 
+                class="mx-auto mb-2 rounded-circle bg-dark d-flex align-items-center justify-content-center" 
+                style="width: 100px; height: 100px;"
+              >
+                <span class="fw-bold">12,340h</span>
+              </div>
+              <small class="text-light">Total hours played</small>
+            </div>
+          
+            <div class="mt-3 d-flex justify-content-around">
+              <div class="text-center">
+                <span class="d-block fw-bold">2,340h</span>
+                <small>Dota 2</small>
+              </div>
+              <div class="text-center">
+                <span class="d-block fw-bold">5,420h</span>
+                <small>CS:GO</small>
+              </div>
+              <div class="text-center">
+                <span class="d-block fw-bold">4,580h</span>
+                <small>Valorant</small>
+              </div>
+            </div>
+          </div>
+          
+          <h5 class="text-white mb-3">Last Downloads</h5>
+          <div class="bg-transparent bg-gradient text-white rounded-4 p-3">
+            <div class="d-flex align-items-center mb-2">
+              <img 
+                src="https://via.placeholder.com/40" 
+                alt="FIFA23" 
+                class="rounded-circle me-2"
+              >
+              <div>
+                <div class="fw-bold">FIFA 23</div>
+                <small class="text-light">Sports simulator</small>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <small>1 hour 23 min</small>
+              <small>265MB of 1.23GB</small>
+              <i class="bi bi-x-circle-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div> 
+    
+  </div> 
+</div> 
+
+
+</body>
+</html>
